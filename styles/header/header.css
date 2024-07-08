@@ -1,0 +1,125 @@
+.header{
+    background-image: url(../../Assets/Images/social/Arrière-plan.svg);
+    width: 100%;
+    height: 700px;
+    /* justify-content: space-between; */
+    align-items:center;
+    gap: 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 8px solid  rgba(45, 45, 45, 0.815);
+}
+
+
+.header__header{
+    display: flex;
+    align-items: center;
+    height: 92px;
+    /* border: 2px solid red; */
+    margin: 0px 113px;
+    /* padding: 24px 48px; */
+    justify-content: center;
+    width: 100%;
+
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width:1045px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    align-items: center;
+}
+
+.header__logo{
+    width: 148px;
+    height: 40px;
+}
+
+.header__nomlogo{
+    width: 76px;
+    height: 32px;
+    background-color: rgb(var(--troixième-color));
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms;
+    color: rgb(var(--secondary-color));
+    font-size: var(--Bodyline-font-size);
+}
+
+.header__nomlogo:hover{
+    background-color: rgb(var(--troixième-color),0.9);
+}
+
+.header__texte1{
+    align-items: center;
+    height: 234px;
+    width: 884px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__1{
+    font-size: var(--headline-font-size);
+    color: rgb(var(--secondary-color));
+    font-weight: bold;
+}
+
+.header__2{
+    font-size: var(--subheadline-font-size);
+    color: rgb(var(--secondary-color));
+}
+
+.header__3{
+    font-size: 20px;
+    color: rgb(var(--secondary-color)); 
+}
+
+.header__texte2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__mail{
+    width: 365px;
+    height: 56px;
+    display: flex;
+    padding: 0px 0px 0px 12px;
+    background-color: var(--primary-color);
+}
+
+.header__button{
+    width: 213px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(var(--troixième-color));
+    color: rgb(var(--secondary-color));
+    font-size: var( --subheadline-font-size);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.header__button:hover{
+    background-color: rgb(var(--troixième-color),0.8);
+}
+
+.mobil{
+    display: none;
+}
+
+.mobil1{
+    display: none;
+}
+

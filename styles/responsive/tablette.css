@@ -1,0 +1,50 @@
+@media (min-width:641px){
+ .header{
+    width: 100%;
+ }
+
+ .header__texte1{
+    width: 100%;
+ }
+
+ .main{
+    width: 100%;
+ }
+
+ .main__sec1{
+    width: 100%;
+ }
+
+ .section5__1{
+    width: 100%;
+ }
+
+  .section5__but{
+    width: 100%;
+  }
+
+  .section5__but{
+    max-width: 1029px;
+  }
+
+
+ .footer{
+    width: 100%;
+    padding: 0px 0px;
+ }
+
+ .footer__containeur{
+    width: 100%;
+    margin: auto;
+    max-width: 1029px;
+ }
+
+ .footer__containeur-2{
+    width: 100%;
+    margin: auto;
+ }
+.footer__containeur-2-1{
+    width: 100%;
+}
+
+}
